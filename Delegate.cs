@@ -20,6 +20,8 @@ namespace DelegateToyProj
 
         private void TestCode()
         {
+
+            // Calc(int, int CalcDelegate) : Delegate 타입이 같은 메소드들을 다루는 Handler
             // 방법1. 객체 할당 후 사용
             var addOp = new CalcDelegate(Add);
             Calc(6, 3, addOp);
